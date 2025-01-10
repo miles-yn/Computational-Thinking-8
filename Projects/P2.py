@@ -1,3 +1,4 @@
+#begining
 carti_points = 0
 nettspend_points = 0
 
@@ -15,6 +16,7 @@ elif answer == "B":
     carti_points += 1
 
 
+#middle
 answer = input("Would you rather A)do money spreads, or B)be smart with your money?\n")
 if answer == "A" :
     nettspend_points += 1
@@ -38,3 +40,4 @@ if carti_points > nettspend_points:
     print("you are a carti fan!")
 elif nettspend_points > carti_points:
     print("you are a nettspend fan!")
+#end
